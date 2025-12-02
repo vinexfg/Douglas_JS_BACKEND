@@ -55,7 +55,7 @@ let number2 = Number(prompt('digite seu  segundo nuemro'))
 
 
 if (number2 <= 10 && number2 >= 0){
-    console('Digito estao aprovado')
+    console.log('Digito estao aprovado')}
 
 
 
