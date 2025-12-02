@@ -1,4 +1,4 @@
-from prompt import prompt
+
 
 // let x = 16
 
@@ -46,7 +46,24 @@ from prompt import prompt
 //     console.log('reprovado')
 // }
 
-6
+
+const prompt = require("prompt-sync")();
+
+
+let number1 = Number(prompt(' Digite seu primeiro numero'))
+let number2 = Number(prompt('digite seu  segundo nuemro'))
+
+
+if (number2 <= 10 && number2 >= 0){
+    console('Digito estao aprovado')
+
+
+
+
+
+
+
+
 
 
 
