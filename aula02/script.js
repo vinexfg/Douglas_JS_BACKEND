@@ -44,26 +44,61 @@
 //     console.log('Recuperacao');
 // }else{
 //     console.log('reprovado')
-// }
+// } 
 
 
-const prompt = require("prompt-sync")();
+// const prompt = require("prompt-sync")();
 
 
-let number1 = Number(prompt(' Digite seu primeiro numero'))
-let number2 = Number(prompt('digite seu  segundo nuemro'))
+// let number1 = Number(prompt(' Digite seu primeiro numero'))
+// let number2 = Number(prompt('digite seu  segundo nuemro'))
 
 
-if (number1 <= 10 && number2 >= 0){
-    console.log('Digito estao aprovado')}
-
-
-
+// if (number1 <= 10 && number2 >= 0){
+//     console.log('Digito estao aprovado')}
 
 
 
+// 1kwh == 0.50centavos
 
 
 
 
 
+let valor_consumido = 100;
+
+
+if (valor_consumido <= 100){
+   let resultado = valor_consumido * 0.50
+   console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado}`);  
+   
+} else if(valor_consumido >=101 && valor_consumido <=200){
+    let resultado2 = valor_consumido * 0.75
+    console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado2}`)
+
+} else if(valor_consumido >200){
+    let resultado3 = valor_consumido * 1
+    console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado3}`)
+}
+///////////////////////////////////////////////////////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+
+
+
+
+let salario = 4000;
+let imposto = 0;
+
+
+if (salario <= 2000){
+    imposto = 0
+}else if (salario <= 3500){
+    imposto = (salario - 2000) * 0.10
+}else if(salario <= 5000){
+    imposto = ((1500 * 0.10) + (salario - 3500) * 0.2)
+}else{
+    imposto = ((1500 * 0.10) + (1500 * 0.20) + (salario - 5000) * 0.30)
+}
+
+
+console.log(`O imposto de renda devido e R$ ${imposto.toFixed(2)}`)
