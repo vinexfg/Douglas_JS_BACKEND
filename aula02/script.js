@@ -65,40 +65,54 @@
 
 
 
-let valor_consumido = 100;
+// let valor_consumido = 100;
 
 
-if (valor_consumido <= 100){
-   let resultado = valor_consumido * 0.50
-   console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado}`);  
+// if (valor_consumido <= 100){
+//    let resultado = valor_consumido * 0.50
+//    console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado}`);  
    
-} else if(valor_consumido >=101 && valor_consumido <=200){
-    let resultado2 = valor_consumido * 0.75
-    console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado2}`)
+// } else if(valor_consumido >=101 && valor_consumido <=200){
+//     let resultado2 = valor_consumido * 0.75
+//     console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado2}`)
 
-} else if(valor_consumido >200){
-    let resultado3 = valor_consumido * 1
-    console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado3}`)
-}
-///////////////////////////////////////////////////////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-
-
+// } else if(valor_consumido >200){
+//     let resultado3 = valor_consumido * 1
+//     console.log(`Seu consumo ${valor_consumido} e seu valor consumido R$${resultado3}`)
+// }
+// ///////////////////////////////////////////////////////////////aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 
-let salario = 4000;
-let imposto = 0;
 
 
-if (salario <= 2000){
-    imposto = 0
-}else if (salario <= 3500){
-    imposto = (salario - 2000) * 0.10
-}else if(salario <= 5000){
-    imposto = ((1500 * 0.10) + (salario - 3500) * 0.2)
-}else{
-    imposto = ((1500 * 0.10) + (1500 * 0.20) + (salario - 5000) * 0.30)
-}
+// let salario = 4000;
+// let imposto = 0;
 
 
-console.log(`O imposto de renda devido e R$ ${imposto.toFixed(2)}`)
+// if (salario <= 2000){
+//     imposto = 0
+// }else if (salario <= 3500){
+//     imposto = (salario - 2000) * 0.10
+// }else if(salario <= 5000){
+//     imposto = ((1500 * 0.10) + (salario - 3500) * 0.2)
+// }else{
+//     imposto = ((1500 * 0.10) + (1500 * 0.20) + (salario - 5000) * 0.30)
+// }
+
+
+// console.log(`O imposto de renda devido e R$ ${imposto.toFixed(2)}`)
+
+
+const prompt = require("prompt-sync")();
+
+
+
+
+// let resultado = idade >= 18 ? "E Adulto": "E muleque"
+
+let numero = 10 
+
+let resposta =  (numero % 2== 1) ? "impa" : 'par'
+
+console.log(`Seu nuemro e ${resposta}`);
