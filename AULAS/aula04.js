@@ -61,34 +61,50 @@
 // console.log(raiz(64))
 
 
-function divisao(valor){
+// function divisao(valor){
 
-    if(valor == 0 ){
-        console.log(' seu numero e zero nao pode ser dividido' );
+//     if(valor == 0 ){
+//         console.log(' seu numero e zero nao pode ser dividido' );
         
-    }else{
-        resultado = (valor/2)
-        return console.log(resultado);
+//     }else{
+//         resultado = (valor/2)
+//         return console.log(resultado);
         
-    }
-}
+//     }
+// }
 
-divisao(5)
-
-
-function Verificar(numb1, numb2){
-    return (numb1 == 0  || numb2 ==0 ? "Nao pode dividir por zero ": numb1/numb2)
-}
+// divisao(5)
 
 
-console.log(Verificar(5, ));
+// function Verificar(numb1, numb2){
+//     return (numb1 == 0  || numb2 ==0 ? "Nao pode dividir por zero ": numb1/numb2)
+// }
+
+
+// console.log(Verificar(5, ));
 
 
 
 
-function dividir(a,b){
-    if(b=== 0) return ' Divisao por zero 0'
-    return a/b
-}
+// function dividir(a,b){
+//     if(b=== 0) return ' Divisao por zero 0'
+//     return a/b
+// } 
 
-console.log(dividir(10.00));
+// console.log(dividir(10.0));
+
+
+
+
+// const dividir = (a,b) => {
+//     if(b===0)
+//         return"divisao por zero 0!";
+//     return a/b
+
+// }
+
+// console.log(dividir(10,0))
+
+
+
+
