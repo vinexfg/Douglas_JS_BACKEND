@@ -75,12 +75,19 @@
 
 
 
-function filtrar(array, validacao){
-    return array.filter(validacao)
+// function filtrar(array, validacao){
+//     return array.filter(validacao)
+// }
+
+//     const precos = [1212, 4353, 65, 545, 6567, 54,  65, 4545]
+//     const precoAlto= filtrar(precos, (p)=> p >=200 )
+
+// console.log(precoAlto);
+
+
+
+
+
+for(let i = 1; i<=10; i++){
+    console.log(i)
 }
-
-    const precos = [1212, 4353, 65, 545, 6567, 54,  65, 4545]
-    const precoAlto= filtrar(precos, (p)=> p >=200 )
-
-
-console.log(precoAlto);
