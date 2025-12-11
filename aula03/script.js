@@ -88,6 +88,83 @@
 
 
 
-for(let i = 1; i<=10; i++){
-    console.log(i)
+// for(let i = 1; i<=10; i++){
+    
+// }
+
+// const valores = [1,2,3,4,5,6,7,8,9,10];
+
+// let soma = 0
+
+// const resultado = valores.forEach((x)=> x =)
+// console.log(resultado);
+
+
+//  let soma = 0
+
+// for(let i = 1; i <=10; i++){
+//     soma += i;
+// }
+
+// console.log(soma);
+
+
+// const valor = [1,2,3,4,5,6,7,8,9];
+
+// let soma = 0;
+
+// valor.forEach(x => {
+//   soma += x;
+// });
+
+// console.log(soma); // 45
+
+
+
+
+
+
+// const numeros = [1,2,3,4,5,6,7,8,9,10];
+
+// numeros.forEach(x => {
+//   console.log(x % 2 === 0 ? `${x} Par` : `${x} Impar`);
+// });
+
+
+// let soma = 0
+// let soma_par = 0
+
+// for(i =0; i <=50; i++){
+//     if (i%2 ===1){
+//         soma += i
+//     }else{
+//         soma_par += i
+//     }}
+
+//     console.log(soma)
+//     console.log(soma_par);
+    
+
+
+
+// const valores = ['maca', ' banana', ' laranja']
+
+
+// for(fruta of valores){
+//     console.log(fruta);
+    
+// }
+
+
+let resultado = 0
+let media = 0
+const numero = [10,5, 8, 12]
+
+for (let i = 0; i < numero.length; i++){
+    resultado += numero[i]
+    media = resultado / numero.length
 }
+
+console.log(resultado);
+console.log(media);
+
