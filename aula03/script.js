@@ -156,15 +156,27 @@
 // }
 
 
-let resultado = 0
-let media = 0
-const numero = [10,5, 8, 12]
+// let resultado = 0
+// let media = 0
+// const numero = [10,5, 8, 12]
 
-for (let i = 0; i < numero.length; i++){
-    resultado += numero[i]
-    media = resultado / numero.length
-}
+// for (let i = 0; i < numero.length; i++){
+//     resultado += numero[i]
+//     media = resultado / numero.length
+// }
 
-console.log(resultado);
-console.log(media);
+// console.log(resultado);
+// console.log(media);
+const numeros = [1, 2, 3, 4, 5];
 
+const resultado = numeros.filter((valor, index) => 
+  index % 2 === 0 && valor % 2 !== 0
+);
+
+console.log(resultado); // //
+
+// {
+    // [2,4]
+    // [3,4]
+    // [1,3,5]
+    // null
