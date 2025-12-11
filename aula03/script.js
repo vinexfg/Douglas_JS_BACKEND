@@ -1,10 +1,7 @@
-
-
-
 // function calcularIMC(peso, altura){
 
 //     const imc = peso / (altura**2)
-    
+
 //     let classificacao =''
 
 //     if (imc < 18.5){
@@ -25,7 +22,6 @@
 //  resultado = calcularIMC()
 
 // console.log(`Resultado: ${resultado.calcularIMC(72, 1.75)}`);
-
 
 // function calcularIMC(peso, altura) {
 
@@ -53,14 +49,11 @@
 
 // console.log(`IMC: ${resultado.imc} - Classificação: ${resultado.classificacao}`)
 
-
 // function listando(lista){
 //     const lista = [12,24,223,42,533,655,744,855,103]
 //     let resultados = lista.filter(x=> x>= 300)
-//     return resultados    
+//     return resultados
 // }
-
-
 
 // function filtrar(array, validacao){
 //     return array.filter(validacao)
@@ -68,12 +61,7 @@
 // }
 // const precos = [12312, 43534, 65, 545, 6567, 54,  65, 45454]
 
-
-
 // const precoAltos = filtrar(precos, (preco)=> preco > 100)
-
-
-
 
 // function filtrar(array, validacao){
 //     return array.filter(validacao)
@@ -84,12 +72,8 @@
 
 // console.log(precoAlto);
 
-
-
-
-
 // for(let i = 1; i<=10; i++){
-    
+
 // }
 
 // const valores = [1,2,3,4,5,6,7,8,9,10];
@@ -99,7 +83,6 @@
 // const resultado = valores.forEach((x)=> x =)
 // console.log(resultado);
 
-
 //  let soma = 0
 
 // for(let i = 1; i <=10; i++){
@@ -107,7 +90,6 @@
 // }
 
 // console.log(soma);
-
 
 // const valor = [1,2,3,4,5,6,7,8,9];
 
@@ -119,17 +101,11 @@
 
 // console.log(soma); // 45
 
-
-
-
-
-
 // const numeros = [1,2,3,4,5,6,7,8,9,10];
 
 // numeros.forEach(x => {
 //   console.log(x % 2 === 0 ? `${x} Par` : `${x} Impar`);
 // });
-
 
 // let soma = 0
 // let soma_par = 0
@@ -143,18 +119,13 @@
 
 //     console.log(soma)
 //     console.log(soma_par);
-    
-
-
 
 // const valores = ['maca', ' banana', ' laranja']
 
-
 // for(fruta of valores){
 //     console.log(fruta);
-    
-// }
 
+// }
 
 // let resultado = 0
 // let media = 0
@@ -167,16 +138,60 @@
 
 // console.log(resultado);
 // console.log(media);
-const numeros = [1, 2, 3, 4, 5];
+// const numeros = [1, 2, 3, 4, 5];
 
-const resultado = numeros.filter((valor, index) => 
-  index % 2 === 0 && valor % 2 !== 0
-);
+// const resultado = numeros.filter((valor, index) =>
+//   index % 2 === 0 && valor % 2 !== 0
+// );
 
-console.log(resultado); // //
+// console.log(resultado); // //
 
-// {
-    // [2,4]
-    // [3,4]
-    // [1,3,5]
-    // null
+// // {
+//     // [2,4]
+//     // [3,4]
+//     // [1,3,5]
+//     // null
+
+// const fruntas = ["banana", " maca   ", " coco", " uva"];
+// fruntas.forEach((x, i) => {
+//   console.log(`Sua fruta ${x} e seu indice ${i}`);
+// });
+
+// const  valores = [10,20,13,45,60,83,52]
+
+// valores.forEach(x=> resultado += x)
+
+// console.log(resultado);
+
+// valores.forEach((x)=> )
+
+// let resultado = []
+// valores.forEach(x => x % 2=== 0 ? resultado.push(x):'')
+
+// console.log(resultado);
+// console.log(resultado.length);
+
+// let contador = 0
+// const  numeros = [10,20,13,45,60,83,52]
+// numeros.forEach(function(numero){
+//    if(numero % 2 ===0){
+//       contador++
+//    }
+// })
+
+const cores = ["azul", " amarelo", " vermelho", "Verde"];
+
+// for (let cor of cores){
+//    console.log(cor);
+
+// }
+
+// for (let cor of cores) {
+//   if (cor.length > 4) {
+//     console.log(cor);
+//   }
+// }
+
+
+
+cores.forEach((cor)=> cor.length > 4 ? console.log(cor.length): '');
