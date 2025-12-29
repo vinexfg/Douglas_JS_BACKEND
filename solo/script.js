@@ -24,7 +24,28 @@
 // const temAprovado = notas.some((n) => n <= 6);
 // console.log(temAprovado);       //True se algum elemento for TRUEEEEEE
 
-const notas = [9, 6, 7];
+// const notas = [9, 6, 7];
 
-let todosAprovados = notas.every((n) => n >= 6);
-console.log(todosAprovados);
+// let todosAprovados = notas.every((n) => n >= 6);
+// console.log(todosAprovados);
+
+
+
+// const numeros = [1, 2, 3, 4, 5]
+
+// const dobrados = numeros.map((n) => n * 2);
+
+
+
+// console.log(dobrados);
+
+
+
+
+
+
+const idade = [29, 24, 21, 15]
+
+const adultos = idade.filter((i) => i >= 18)
+
+console.log(adultos);
