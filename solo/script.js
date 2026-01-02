@@ -44,8 +44,14 @@
 
 
 
-const idade = [29, 24, 21, 15]
+// const idade = [29, 24, 21, 15]
 
-const adultos = idade.filter((i) => i >= 18)
+// const adultos = idade.filter((i) => i >= 18)
 
-console.log(adultos);
+// console.log(adultos);
+
+
+
+const prompt = require('prompt-sync')();
+const numero = prompt('Digite seu numero: ')
+console.log('VOce digitou ', numero);
