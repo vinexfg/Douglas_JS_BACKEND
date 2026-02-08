@@ -179,19 +179,29 @@
 //    }
 // })
 
-const cores = ["azul", " amarelo", " vermelho", "Verde"];
+// const cores = ["azul", " amarelo", " vermelho", "Verde"];
 
-// for (let cor of cores){
-//    console.log(cor);
+// for (let cor of cores) {
+//     console.log(cor);
 
 // }
 
 // for (let cor of cores) {
-//   if (cor.length > 4) {
-//     console.log(cor);
-//   }
+//     if (cor.length > 4) {
+//         console.log(cor);
+//     }
 // }
 
 
 
-cores.forEach((cor)=> cor.length > 4 ? console.log(cor.length): '');
+cores.forEach((cor) => cor.length > 4 ? console.log(cor.length) : '');
+
+
+
+const cores = ["azul", " amarelo", " vermelho", "Verde"];
+for (let cor of cores) {
+    if (cor.length > 4) {
+        console.log(cor)
+    }
+
+}
