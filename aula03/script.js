@@ -216,4 +216,4 @@ const cores = ["azul", " amarelo", " vermelho", "Verde"];
 cores.forEach((cores) => { cores.length > 4 ? console.log('cor Aprovada') : console.log("cor reprovada") })
 
 
-a
+c
