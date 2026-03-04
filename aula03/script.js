@@ -210,10 +210,37 @@
 
 
 
+// const cores = ["azul", " amarelo", " vermelho", "Verde"];
+
+
+// cores.forEach((cores) => { cores.length > 4 ? console.log('cor Aprovada') : console.log("cor reprovada") })
+
+
+// c
+
+
+// const  valores = [10,20,13,45,60,83,52]
+
+// valores.forEach(x=> resultado += x)
+
+
+// const valores = [10, 20, 13, 45, 60, 83, 52]
+
+// valores.forEach(x => {
+//     resultado = x
+// })
+
+
+
+// const cores = ["azul", " amarelo", " vermelho", "Verde"];
+
+
+// cores.forEach((cores) => { cores.length > 4 ? console.log('cor Aprovada') : console.log("cor reprovada") })
+
+
 const cores = ["azul", " amarelo", " vermelho", "Verde"];
 
+cores.forEach((cores) => {
+    cores.length > 4 ? console.log('cor Aprovada') : console.log('cor reprovada')
 
-cores.forEach((cores) => { cores.length > 4 ? console.log('cor Aprovada') : console.log("cor reprovada") })
-
-
-c
+});
